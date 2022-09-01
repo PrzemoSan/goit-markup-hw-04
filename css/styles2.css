@@ -243,11 +243,15 @@ figure{
     padding-top: 10px;
     padding-bottom: 30px;
 }
+.our-social-list{
+    align-items: center;
+}
 
 .our-social{
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .our-partners{
