@@ -244,7 +244,7 @@ figure{
     padding-bottom: 30px;
 }
 .our-social-list{
-    align-items: center;
+    justify-content: center;
 }
 
 .our-social{
