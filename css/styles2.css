@@ -276,6 +276,8 @@ figure{
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .partners-logo{
