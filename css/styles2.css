@@ -253,6 +253,7 @@ figure{
     flex-direction: row;
     gap: 10px;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .our-partners{
