@@ -243,6 +243,9 @@ figure{
     padding-top: 10px;
     padding-bottom: 30px;
 }
+.our-social-list{
+    justify-content: center;
+}
 
 .our-social{
     list-style-type: none;
@@ -250,7 +253,7 @@ figure{
     flex-direction: row;
     gap: 10px;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
 }
 
 .our-partners{
@@ -340,6 +343,15 @@ figure{
     text-decoration: none;
     letter-spacing: 0.03;
     width: 231px;
+}
+
+.cont-social-icons{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .second-menu{
