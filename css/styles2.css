@@ -4,6 +4,8 @@
     max-width: 1600px;
 }
 
+svg{ border: solid 1px black;}
+
 .container{
     width: 1200px
 }
@@ -84,6 +86,12 @@
     margin-right: 50px;
 }
  
+.contact-icon{
+    width: 16px;
+    height: 12px;
+    display: flex;
+}
+
 .phone {
     color: black;
     text-decoration: none;
