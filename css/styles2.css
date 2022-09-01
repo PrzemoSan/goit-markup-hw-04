@@ -288,6 +288,7 @@ figure{
 
 .footer {
     background-color: #2F303A;
+    
 }
 
 .footer-section{
@@ -295,6 +296,11 @@ figure{
     padding-left:215px;
     padding-right: 215px;
     padding-bottom: 60px;
+    display: flex;
+}
+
+h4{
+    margin: 0;
 }
 
 .second-main-tittle {
@@ -303,9 +309,9 @@ figure{
     line-height: 1.38;
     letter-spacing: 0.03;
     font-size: 26px;
-    padding-top: 60px;
     margin-bottom: 20px;
     width: 145px;
+    margin: 0;
 }
 
 .second-rest-tittle {
@@ -319,6 +325,7 @@ figure{
     letter-spacing: 0.03;
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
     padding-bottom: 9px;
     width: 246px;
 }
@@ -345,13 +352,33 @@ figure{
     width: 231px;
 }
 
-.cont-social-icons{
+.come-to-us{
+    font-weight: 700;
+    color: white;
+    line-height: 1.17;
+    width: 113px;
+    height: 16px;
+    padding: 0;
+    margin: 12px 0 20px 70px;
+}
+
+.second-footer-section{
+    display:flex;
+    padding: 0;
+    margin-left: 70px;
+}
+
+.footer-icons-list{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
+    margin: 0;
+}
+
+.footer-social-icons{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 
 .second-menu{
