@@ -141,6 +141,8 @@ h1{
 .about-us-icon{
     background: #F5F4FA;
     border-radius: 4px;
+    align-items: center;
+    justify-content: center;
 }
 .about-us{
     display: flex;
