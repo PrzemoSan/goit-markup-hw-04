@@ -4,8 +4,6 @@
     max-width: 1600px;
 }
 
-svg{ border: solid 1px black;}
-
 .container{
     width: 1200px
 }
@@ -143,7 +141,6 @@ h1{
 .about-us-icon{
     background: #F5F4FA;
     border-radius: 4px;
-    justify-content: center;
 }
 .about-us{
     display: flex;
@@ -245,6 +242,12 @@ figure{
     display: block;
     padding-top: 10px;
     padding-bottom: 30px;
+}
+
+.our-social{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
 }
 
 .our-partners{
