@@ -193,6 +193,7 @@ figure{
 
 .job-section{
     margin: 0 auto;
+    padding-bottom: 94px;
 }
 .job-tittle {
     color:#212121;
@@ -261,8 +262,8 @@ figure{
 }
 .our-social-list{
     justify-content: center;
-    margin-top: 16px;
-    margin-bottom: 30px;
+    padding-top: 16px;
+    padding-bottom: 30px;
 }
 
 .our-social{
