@@ -236,6 +236,7 @@ figure{
 .our-img{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
 
 .name {
@@ -271,7 +272,17 @@ figure{
     gap: 10px;
     justify-content: center;
     align-items: center;
-    background-color: #AFB1B8;
+}
+
+.our-social-icon{
+    border-radius: 50%;
+    background-color: white;
+}
+
+.our-social-icon:hover{
+    border-radius: 50%;
+    background-color: #2196F3;
+    fill: #FFFFFF;
 }
 
 .our-partners{
@@ -302,6 +313,11 @@ figure{
     width: 170px;
     height: 92px;
     object-fit: contain;
+}
+
+.partners-logo:hover{
+    border: 1px solid #2196F3;
+    fill: #2196F3;
 }
 
 .footer {
@@ -396,6 +412,11 @@ figure{
 
 .footer-social-icons{
     background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer-social-icons:hover{
+    background-color: #2196F3;
     border-radius: 50%;
 }
 
