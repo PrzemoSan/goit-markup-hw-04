@@ -90,6 +90,8 @@
     display: inline-flex;
 }
 
+.contact-icon:hover{
+    fill: #2196F3;
 }
 
 .phone {
@@ -144,8 +146,8 @@ h1{
 .about-icon{
     justify-content: center;
     align-items: center;
-    
 }
+
 .about-us-icon{
     background: #F5F4FA;
     border-radius: 4px;
@@ -154,6 +156,7 @@ h1{
     width: 270px;
     height: 120px
 }
+
 .about-us{
     display: flex;
     flex-direction: row;
@@ -257,6 +260,8 @@ figure{
 }
 .our-social-list{
     justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
 }
 
 .our-social{
@@ -266,6 +271,7 @@ figure{
     gap: 10px;
     justify-content: center;
     align-items: center;
+    background-color: #AFB1B8;
 }
 
 .our-partners{
@@ -420,6 +426,10 @@ figure{
     border: none;
     font-weight: 500;
     line-height: 1.62;
+    width: 93px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
 .menu-button:hover {
@@ -442,6 +452,14 @@ figure{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+}
+
+.portfolio-img{
+    border: solid 1px #EEEEEE
+}
+
+.portfolio-img:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16)
 }
 
 .second-name {
