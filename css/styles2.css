@@ -90,8 +90,6 @@
     display: inline-flex;
 }
 
-.contact-icon:hover{
-    fill: #2196F3;
 }
 
 .phone {
@@ -111,6 +109,7 @@
 .second-phone:hover {
     color:#2196F3;
     text-decoration: none;
+    fill: #2196F3;
 }
 
 .request {
