@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 1200px
+    width: 1200px;
 }
 
 .section{
@@ -138,11 +138,18 @@ h1{
     cursor: pointer;
 }
 
+.about-icon{
+    display: flex;
+    justify-content: center;
+    
+}
 .about-us-icon{
     background: #F5F4FA;
     border-radius: 4px;
     align-items: center;
     justify-content: center;
+    width: 270px;
+    height: 120px
 }
 .about-us{
     display: flex;
@@ -301,13 +308,13 @@ figure{
     display: flex;
 }
 
-h4{
-    margin: 0;
-}
 
 .second-main-tittle {
     color: #2196F3;
     text-decoration: none;
+}
+
+.second-tittle{
     line-height: 1.38;
     letter-spacing: 0.03;
     font-size: 26px;
