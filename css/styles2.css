@@ -426,9 +426,10 @@ figure{
 
 .second-menu{
     background-color: #FFFFFF;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
+    margin: 0;
 }
 
 .button-list{
@@ -438,7 +439,6 @@ figure{
     padding: 6px 22px;
     text-align: center;
     gap: 8px;
-    margin-top: 94px;
 }
 
 .menu-button {
@@ -464,8 +464,11 @@ figure{
     box-shadow: 2px 2px 5px #7e7676;
     }
 
-.portfolio-photo{
+.portfolio-section{
     margin: 0 auto;
+}
+
+.portfolio-photo{
     display: flex;
     gap: 30px;
 }
