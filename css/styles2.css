@@ -276,6 +276,7 @@ figure{
 }
 
 .our-social-icon{
+    fill: #AFB1B8;
     border-radius: 50%;
     background-color: white;
 }
@@ -314,6 +315,7 @@ figure{
     width: 170px;
     height: 92px;
     object-fit: contain;
+    fill: #AFB1B8;
 }
 
 .partners-logo:hover{
