@@ -90,6 +90,10 @@
     display: inline-flex;
 }
 
+.contact-icon:hover{
+    color: #2196F3;
+}
+
 .phone {
     color: black;
     text-decoration: none;
